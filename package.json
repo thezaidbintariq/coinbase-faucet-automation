@@ -1,0 +1,26 @@
+{
+  "name": "coinbase-faucet-automation",
+  "version": "1.0.0",
+  "description": "Coinbase faucet script for requesting testnet tokens",
+  "main": "faucet.ts",
+  "scripts": {
+    "fund": "bun faucet.ts"
+  },
+  "keywords": [
+    "coinbase",
+    "faucet",
+    "testnet",
+    "base-sepolia"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@coinbase/cdp-sdk": "^1.40.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
